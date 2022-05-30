@@ -25,5 +25,4 @@ def solution(graph,start,visited):
             idx += 1
     return visited[visited]
         
-    
 print(solution(graph,x,k))
