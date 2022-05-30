@@ -8,22 +8,22 @@ graph = [[] for i in range(n+1)]
 
 
 
-for i in range(n+1):
+for i in range(m):
     a,b = map(int,stdin.readline().split())
     graph[a].append(b)
-    
-count = 0
 
-def solution(graph,start,distance):
-    q = deque(start)
-    visited = [False] * (n+1)
-    visited[x] = True
-    while q:
-        for i in distance[start]:
-            if not distance[i]:
-                solution(graph,i,distance,distance)
-        distance -= 1
-        if distance == 0:
-            return q
+visited = [False] * (n+1)
+visited[x] = True
+    
+def solution(graph,start,visited):
+    idx = 0 
+    for i in graph[start]:
+        if idx == visited:
+            continue
+        if not graph[i]:
+            solution(graph,i,visited)
+            idx += 1
+    return visited[visited]
+        
     
 print(solution(graph,x,k))
