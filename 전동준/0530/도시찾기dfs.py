@@ -1,4 +1,5 @@
-#bfs 알고리즘
+#dfs 알고리즘
+#문제 특성 상 dfs는 비효율적
 from collections import deque
 from sys import stdin
 
