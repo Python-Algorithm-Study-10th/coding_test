@@ -33,7 +33,7 @@ def solution(start,gap):
         if distance[i] == gap:
             check = True 
             print(i)                
-    if check == False:
+    if check == False:  #check = True여도 None 값이 반환되는 문제 발생
         print(-1)
-        
+
 print(solution(x,k))
