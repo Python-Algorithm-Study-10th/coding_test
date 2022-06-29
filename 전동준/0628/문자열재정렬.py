@@ -21,3 +21,16 @@ def solution(letter):
 s = str(stdin.readline().strip())
 
 solution(s)
+
+#참고용
+s=input()
+c=[]
+nsum=0
+for i in s:
+    if i.isdigit()==False:
+        c.append(i)
+    else:
+        nsum+=int(i)
+c.sort()
+result="".join(c)
+print(result+str(nsum))
