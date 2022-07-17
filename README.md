@@ -3,10 +3,10 @@
 _ | 번호 | 문제 | 분류 | 풀이 | 다시보기
 :---: |--- |--- |--- |---|:---:|
 -| | | | | | | 
--|  1   | dfs기본 |dfs_bfs| 김,전,[조](./조우석/dfs_bfs/dfs기본.py) | | 
+-|  1   | dfs기본 |dfs_bfs| 김,전,[조](../조우석/dfs_bfs/dfs기본.py) | | 
 -|  2   | bfs기본 | dfs_bfs | 김,전,[조](./조우석/dfs_bfs/bfs기본.py) | | 
--|  3   | 음료수얼려먹기 | dfs_bfs | 김,전,[조](./조우석/dfs_bfs/음료수얼려먹기.py) | | 
--|  4   | 미로탈출 | dfs_bfs | 김,전,[조](./조우석/dfs_bfs/미로탈출.py) | | 
+-|  3   | 음료수얼려먹기 | dfs_bfs | 김,전,[조](./../dfs_bfs/음료수얼려먹기.py) | | 
+-|  4   | 미로탈출 | dfs_bfs | 김,전,[조](././dfs_bfs/미로탈출.py) | | 
 -|  5  | [연구소](https://www.acmicpc.net/problem/14502) | dfs_bfs | 김,전,[조](./조우석/dfs_bfs/연구소.py) | | 
 -|  6  | [특정거리의도시찾기](https://www.acmicpc.net/problem/18352) | dfs_bfs | 김,전,[조](./조우석/dfs_bfs/특정거리의도시찾기.py) | | 
 -|  7   | [럭키스트레이트](https://www.acmicpc.net/problem/18406) | 구현 | 김,전,[조](./조우석/dfs_bfs/럭키스트레이트.py) | | 
